@@ -5,7 +5,7 @@ description: Answer a question against the Gaters wiki with citations. Use when 
 
 # ask
 
-1. Read index.md to find the relevant pages.
+1. Read docs/index.md to find the relevant pages.
 2. Read them, following wikilinks one or two hops as needed.
 3. Answer from the pages, citing which ones you used.
 4. If the answer is worth keeping (a relationship map, a derived rule, a found

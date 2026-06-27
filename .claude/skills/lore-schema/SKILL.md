@@ -23,4 +23,4 @@ Rules:
   deliberate.
 - Cross-link to systems pages where an element appears in-game.
 - Anchor canon to raw/ sources. See AGENTS.md for the full conventions.
-Use the matching template in _templates/lore/.
+Use the matching template in docs/_templates/lore/.

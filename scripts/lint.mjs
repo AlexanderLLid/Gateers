@@ -6,7 +6,7 @@ import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative, basename, extname } from "node:path";
 
 const ROOT = process.cwd();
-const SCAN = ["lore", "systems"];
+const SCAN = ["docs/lore", "docs/systems"];
 const TYPES = new Set([
   "character", "location", "organization", "species", "culture", "religion",
   "myth", "item", "language", "event", "overview", "timeline",
@@ -28,7 +28,7 @@ function walk(dir) {
 }
 
 function frontmatter(text) {
-  const lines = text.split("\n");
+  const lines = text.split(/\r?\n/);
   if (lines[0] !== "---") return "";
   const end = lines.indexOf("---", 1);
   return end === -1 ? "" : lines.slice(1, end).join("\n");

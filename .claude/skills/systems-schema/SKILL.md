@@ -5,7 +5,7 @@ description: Reference for the Gaters systems page types and the data-driven con
 
 # systems-schema
 
-Content types (each maps to a C# data asset / ScriptableObject):
+Content types (later, each maps to a C# data asset / ScriptableObject — no code yet):
 - system - a whole mechanic area (gates, survival meters, building, combat).
 - item - a usable object (tool, weapon, armor, consumable, placeable).
 - resource - a raw or refined material; carries tags.
@@ -23,6 +23,6 @@ Rules:
   or ScriptableObject); never freeze balance numbers in prose.
 - Split static data (Definition) from runtime state (Instance).
 - Prefer material and recipe tags over rigid class trees.
-- List the implementing C# classes/paths under Code.
+- Code section: placeholder until the Unity project exists (then list C# classes/paths).
 - Use MDA vocabulary: a mechanic is a rule, a dynamic is what emerges in play.
-Use the matching template in _templates/systems/.
+Use the matching template in docs/_templates/systems/.

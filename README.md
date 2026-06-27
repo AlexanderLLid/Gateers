@@ -1,34 +1,28 @@
-# Gaters Knowledge Wiki
+# Gaters
 
-An LLM-maintained knowledge base for Gaters, kept as an Obsidian vault in git.
-Two linked parts:
-
-- lore/ - the world bible (World Anvil categories: character, location,
-  organization, species, culture, religion, myth, item, language, event).
-- systems/ - the mechanics bible (survival content model: system, item,
-  resource, recipe, station, structure, creature, biome, status-effect, tech,
-  formula).
-
-The agent does the writing and upkeep; you curate sources and ask questions.
-AGENTS.md is the operating manual it follows. CONTEXT.md is the shared glossary.
-
-## Use it
-1. Open this folder in Obsidian (graph view, wikilinks, Dataview).
-2. Run Claude Code from the repo root; it reads AGENTS.md and loads the skills
-   in .claude/skills/.
-3. Drop sources into raw/ and run /ingest. The agent writes pages, updates
-   index.md, and logs the work.
-4. Ask questions with /ask. Run /lint now and then.
+Parent repo for the game **Gaters**. Right now it holds the **design docs**; the
+Unity game is added later as a sibling folder under this root.
 
 ## Layout
-- AGENTS.md, CLAUDE.md, CONTEXT.md, index.md, log.md
-- lore/ and systems/ - content, folder per type
-- _templates/ - page templates per type
-- raw/ - immutable sources, never edited
-- .claude/skills/ - the agent behaviors
-- scripts/lint.mjs - deterministic checks (CI or pre-commit)
+- `AGENTS.md` — the operating manual the agent follows. `CLAUDE.md` points to it.
+- `docs/` — the design wiki (an Obsidian vault):
+  - `docs/lore/` — world bible (World Anvil types).
+  - `docs/systems/` — mechanics bible; `gate-physics` is the one deep, real-physics page.
+  - `docs/_templates/` — page templates per type.
+  - `docs/raw/` — immutable sources, never edited.
+  - `docs/index.md`, `docs/CONTEXT.md`, `docs/open-questions.md`.
+- `.claude/skills/` — the agent behaviors (/ingest, /ask, /new-page, /lint, ...).
+- `scripts/lint.mjs` — deterministic checks (CI and pre-commit).
+- *(later)* the Unity project, as its own folder.
 
-## Conventions
-Every page has YAML frontmatter with a required type, cross-links with
-[[Wikilinks]], and anchors claims to raw/. Balance numbers live in data, not
-prose. See AGENTS.md for the full set.
+## Current phase
+High-level lore of the **Builders** and the **Central Authority**, plus the
+**gate physics** in depth (bound to real physics). Specific characters, weapons,
+items, and gameplay-systems detail are deferred — see *Scope & priorities* in
+`AGENTS.md`.
+
+## Use it
+1. Open `docs/` in Obsidian (graph view, wikilinks).
+2. Run Claude Code from the repo root; it reads `AGENTS.md` and loads the skills.
+3. Drop sources into `docs/raw/` and run /ingest. Ask questions with /ask. Run
+   /lint now and then.

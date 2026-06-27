@@ -1,4 +1,9 @@
 {
+  "enabledPlugins": {
+    "ponytail@ponytail": true,
+    "superpowers@claude-plugins-official": true
+  },  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": ["github"],
   "extraKnownMarketplaces": {
     "ponytail": {
       "source": {
@@ -6,8 +11,5 @@
         "repo": "DietrichGebert/ponytail"
       }
     }
-  },
-  "enabledPlugins": {
-    "ponytail@ponytail": true
   }
 }
