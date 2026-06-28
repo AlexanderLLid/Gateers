@@ -1,6 +1,7 @@
 # CLAUDE.md - Gaters
 
 THIS IS A WOP FEEL FREE TO SUGGEST CHANGES TO ANYTHING ANYTIME. Nothing is set in stone.
+Never branch off, we always work on main
 
 This is the **parent repo** for the game Gaters. Right now it holds **design docs
 only** (in `docs/`). The Unity game is added later as a sibling folder under this
