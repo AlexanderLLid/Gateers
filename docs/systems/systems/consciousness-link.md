@@ -3,43 +3,47 @@ type: system
 status: draft
 tags: []
 sources: []
-aliases: [Consciousness Link, Consciousness-Link]
-updated: 2026-06-28
+aliases: [Consciousness Link, Backup and Clone, Clone, Backup]
+updated: 2026-06-29
 ---
 
-# Consciousness Link
+# Backup & Clone
 
-The in-world layer under presence, respawn, and sanctioned violence: your body stays on Earth and you pilot a projected avatar. [tentative]
+The in-world layer under presence, respawn, and sanctioned violence: you are a **backed-up clone**, and the gene — not the body — is what persists. See [[world-spine|World Spine]] for how this sits in the whole model. [decided]
 
 ## Purpose
 
-- Makes presence **diegetic** and sets the design's floor: civilizations are mortal (see [[coordinates|Coordinates & Obscurity]]) but **players are never deleted** — selection without extinction.
+- Sets the design's floor: civilizations and bodies are **mortal** (see [[coordinates|Coordinates & Obscurity]]) but the **player is never deleted** — selection without extinction, made literal (the vehicle dies, the gene continues).
 
-## Body-on-Earth (LINK-1)
+## Backup + clone (LINK-1)
 
-- A gater's **real body stays on Earth, in the [[central-authority|Authority]]'s custody** — a condition of the charter (framed opt-in, functionally required).
-- **Only avatars die.** Death drops the avatar + carried gear (lootable); the mind re-anchors home. This is the in-world license for raiding, PvP, and conquest.
-- **Avatar roster:** develop **multiple avatars**, **pilot one at a time**. Home is their launch hub.
-- **Recall to defend.** While away you can **instantly recall** your mind home — cost: the away-avatar + gear are **left behind, exposed**. The answer to "being online elsewhere doesn't protect home." In a [[rifts|Rift]], recall is the emergency exit.
+- Your **mind is backed up** and your **body is a clone grown from your genome** (grown on-site from local biomass — see [[mask-energy|Mask Energy]] / [[world-spine|World Spine]]). The clone is genuinely present and **mortal**.
+- **Only clones die.** Death drops the clone + carried gear (lootable); you re-decant from backup at an anchor. This is the in-world license for raiding, PvP, and conquest — killing a gater never deletes them.
+- **Avatar roster:** develop **multiple clone lines** (tuned for different worlds), **pilot one at a time**. One live body, never simultaneous presence.
+- **Anchor = where you re-decant.** Newcomers: the **Safe Core** hub (always available). Claim a Gate and build a forward facility → re-decant there to hold the world (see [[world-spine|World Spine]]).
 
-## Travel = exposure
+## Recall
 
-- Leaving through your own [[Gates|Gate]] makes it **active** (detectable) and opens the **bilateral tunnel**; active **persists ~20 min** after departure (no instant seal behind you). Sealed-and-home is the only state with no live tunnel — but "dark" means **[[coordinates|unfound]]**, not merely sealed.
+- **Recall to defend** = abandon your away-clone and re-decant at your anchor. Cost: the away-clone + gear are **left behind, exposed** — a committed trade, not a free round-trip. In a [[rifts|Rift]], recall is the emergency exit (you keep your existence, lose the run's loot).
 
 ## Two-layer progression (XP-1)
 
-- **Mind-XP** — permanent, account-wide, earned by **discovery** (first-time unlocks). Lives with the body; **never lost**. _What you know how to do._
-- **Avatar-XP** — per-avatar proficiency, earned by **doing**; **lost with the avatar on death**. _How good this body is at it._
-- **High-water-mark:** the mind stores your strongest-ever proficiency per skill-line; a fresh avatar **re-levels fast up to that mark**, slow beyond — so death costs gear + a temporary dip + position, never a knowledge wipe.
+- **Mind-XP** — permanent, account-wide: knowledge + **banked genetic adaptations**, earned by discovery. Lives in the backup; **never lost**. _What you (and your line) know how to be._
+- **Avatar-XP** — per-clone proficiency, earned by doing; **lost with the body on death**. _How developed this body is._
+- **High-water-mark:** a fresh clone **re-levels fast up to your evolved peak**, slow beyond — so death costs gear + a temporary dip + position, never a knowledge or lineage wipe.
+
+## Claiming, attunement & the tether
+
+- A Gate you've **claimed** (imprinted your DNA on) grows your clones and **fully sustains** you (home soil). A foreign Gate sustains only partially → the away-clock. Beyond all Gate range, the clone can't stay knit and fails. The **mask** is the avatar tech that draws this stabilizing field — see [[mask-energy|Mask Energy]] and [[world-spine|World Spine]].
 
 ## Why / rejected
 
-- **Why body-on-Earth:** it gives the [[central-authority|Authority]]'s brutal frontier its floor — **selection without extinction**: maximally harsh competition that never loses the stock (real players), because only avatars die. It also supplies the diegetic _why_ for respawn and presence.
-- **Rejected — piloting multiple avatars at once (multibox):** declined for a **sequential** roster (one avatar at a time), so presence stays a real constraint and you can't be everywhere.
+- **Why backup + clone (not a projected avatar):** it gives the brutal frontier its floor — **selection without extinction** — with no live-piloting link to maintain and no "what is a projection" hand-wave. The body is really there and really dies; continuity is the evolving genome, safe in the backup.
+- **Rejected — piloting multiple clones at once (multibox):** sequential roster only, so presence stays a real constraint.
 
 ## Data
 
-- Re-level curve, recall cost, active-persistence window — tunables in data. Numbers open.
+- Re-level curve, recall/abandon cost, away-clock length, re-decant time — tunables in data. Numbers open.
 
 ## Code
 
@@ -47,4 +51,4 @@ Placeholder until the Unity project exists.
 
 ## Open questions
 
-- Disconnect / AFK / grace-window timings; where "return home" lands if your home was wiped mid-Rift (operator-anchor fallback). Tracked in open-questions.md.
+- Disconnect / AFK / grace-window timings; exact re-decant location chain when a forward facility is lost (fall back to Safe Core). Tracked in [[open-questions|Open Questions]].

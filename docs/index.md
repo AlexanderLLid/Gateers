@@ -13,6 +13,11 @@ in CLAUDE.md). Inline tags say how settled a claim is:
 - **[tentative]** — leaning this way, not committed.
 - **[open]** — unresolved; tracked in [[open-questions|Open Questions]].
 
+## Core model (read first)
+
+- [[world-spine|World Spine]] — **the current source of truth** for the avatar / Gate / selection model: gene-as-unit survival-of-the-fittest, the awakening, backed-up clones, claim-by-DNA-imprint, the Gate field as power + tether + map border, the dome, Rifts as Gate-strain, Authority-as-administrator. Supersedes the older "projection" framing; page-by-page reconciliation pending.
+- [[builders-truth|Builders' Truth]] — **behind the curtain** (parked, do not surface in-game): the designer's answer to the central mystery — dying Builders, von Neumann seeders, a successor-breeding engine.
+
 ## Lore
 
 ### Overview
@@ -23,7 +28,7 @@ in CLAUDE.md). Inline tags say how settled a claim is:
 ### Organizations
 
 - [[the-builders|The Builders]] — the unknown precursor gate-makers; the long-game mystery engine.
-- [[central-authority|Central Authority]] — runs the Gates and charters players; secretly forging humanity against the threat.
+- [[central-authority|Central Authority]] — administrates the Gate network and charters players; hands-off (selection is the system's nature, not its scheme). _[reconcile to [[world-spine|World Spine]]]_
 
 ### Locations
 
@@ -54,7 +59,7 @@ in CLAUDE.md). Inline tags say how settled a claim is:
 
 ### Identity, finding & ownership
 
-- [[consciousness-link|Consciousness Link]] — body-on-Earth, avatars, recall, two-layer XP.
+- [[consciousness-link|Backup & Clone]] — backed-up clone, re-decant/respawn, recall, two-layer XP.
 - [[coordinates|Coordinates & Obscurity]] — the mortal home; avatar-shares; re-keying.
 - [[potential|Potential]] — the strength metric; the tribe as ownership primitive.
 - [[holdings|Holdings]] — bounded offline raiding by flow-siphon.
