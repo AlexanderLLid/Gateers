@@ -2,14 +2,14 @@
 type: organization
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Central Authority, the Authority, Directorate]
 updated: 2026-06-28
 ---
 
 # Central Authority
 
-The network's established administrators — the power that runs the Gates and charters the players. _Placeholder name_ — Directorate / Survey / Commission / Charter Office (open) (src: raw/design-overview.md). [tentative]
+The network's established administrators — the power that runs the Gates and charters the players. _Placeholder name_ — Directorate / Survey / Commission / Charter Office (open). [tentative]
 
 ## What it is
 

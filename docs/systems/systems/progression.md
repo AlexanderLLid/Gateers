@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Progression]
 updated: 2026-06-28
 ---
 
 # Progression
 
-_Stub — drivers + the homesteader ceiling decided; tech tree open. See raw/design-overview.md → Progression & Tech._
+_Stub — drivers + the homesteader ceiling decided; tech tree open._
 
 - Two in-world drivers gate one tier ladder: **rising charter clearance** and **more of the [[Gates|Gate Network]] waking**. Ladder: surface worlds → larger/richer → orbital/space Gates → relay/hub Gates → megastructure/Supergates.
 - **Gate tiers are driven, not built** — see [[Gates]] and [[gate-physics|Gate Physics]].

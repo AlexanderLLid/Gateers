@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Raiding]
 updated: 2026-06-28
 ---
 
 # Raiding
 
-The headline fantasy: open a tunnel to a target, breach, take loot, withdraw — the aggressor thrill without the defender tax (src: raw/design-overview.md). [decided core fantasy]
+The headline fantasy: open a tunnel to a target, breach, take loot, withdraw — the aggressor thrill without the defender tax. [decided core fantasy]
 
 ## Purpose
 

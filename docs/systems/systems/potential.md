@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Potential]
 updated: 2026-06-28
 ---
 
 # Potential
 
-The measure of an actor's strength and progression — one sticky number that drives Rift visibility and the raid clock (src: raw/design-overview.md). [tentative]
+The measure of an actor's strength and progression — one sticky number that drives Rift visibility and the raid clock. [tentative]
 
 ## Purpose
 

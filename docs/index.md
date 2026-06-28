@@ -55,15 +55,22 @@ Catalog of every page with a one-line summary. Update on every ingest; read firs
 - [[economy|Economy]] — drivers/sinks framed; numbers open.
 - [[progression|Progression]] — tier ladder + homesteader ceiling; tech tree open.
 
+## Design docs
+
+- [[pillars|Pillars]] — the cores that must work, the design traps, validation, the IP constraint.
+- `archetypes.md` — the player-archetype test-set (served / redirected / denied).
+- `gate-uses.md` — the Gate-use option menu + deferred objects (beacon, jammer, transponder…).
+- `art-direction.md` — aesthetic touchstones (deferred until after greybox).
+- `technical-challenges.md` — what's hard to build, and the gate mechanic that eases each.
+- `adr/` — architecture / technical decisions.
+
 ## Decisions & backlog
 
-- Design decisions live in the **concept pages** (each page's _Why / rejected_ section).
-- `adr/` — architecture / technical decisions.
+- Design decisions live in the **concept pages** (each page's _Why / rejected_); cross-cutting rationale in `pillars.md` / `archetypes.md`; architecture in `adr/`.
 - `open-questions.md` — undecided design questions + conflicts.
 - `CONTEXT.md` — the glossary (shared language).
 - `roadmap.md` — decided-but-deferred features (e.g. space gates).
-- `technical-challenges.md` — build-cost of the design.
 
-## Still deferred (no page; captured in `docs/raw/`)
+## Still deferred (no page yet)
 
-Specific characters, weapons, items, recipes, creatures, named places/factions, species, cultures, religions, myths, languages — and the mystery's true answer. Build a page when it stops churning.
+Specific characters, weapons, items, recipes, creatures, named places/factions, species, cultures, religions, myths, languages — and the mystery's true answer. The Gate-use / object option menu is parked in `gate-uses.md`. Build a page when it stops churning.

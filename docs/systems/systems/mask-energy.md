@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Mask Energy]
 updated: 2026-06-28
 ---
 
 # Mask Energy
 
-The survival / life-support layer, and the **combat resource** — powered by the Gate. Replaces the ARK/Rust hunger-thirst grind with one number tied to the core fantasy (src: raw/design-overview.md). [decided]
+The survival / life-support layer, and the **combat resource** — powered by the Gate. Replaces the ARK/Rust hunger-thirst grind with one number tied to the core fantasy. [decided]
 
 ## Purpose
 

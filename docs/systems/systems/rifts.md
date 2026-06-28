@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Rifts, Rift]
 updated: 2026-06-28
 ---
 
 # Rifts
 
-Spontaneous _unstable_ wormholes — the dopamine engine and the **PvPvE contact surface** where hidden homes get found (src: raw/design-overview.md). [tentative]
+Spontaneous _unstable_ wormholes — the dopamine engine and the **PvPvE contact surface** where hidden homes get found. [tentative]
 
 ## Purpose
 

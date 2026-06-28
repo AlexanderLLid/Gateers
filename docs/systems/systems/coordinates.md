@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Coordinates, Obscurity, Coordinate Database, Mortal Home]
 updated: 2026-06-28
 ---
 
 # Coordinates & Obscurity
 
-How hidden homes get found — the mechanism behind the **mortal home**: protection is obscurity (a re-keyable share-trail), not invulnerability (src: raw/design-overview.md). [tentative]
+How hidden homes get found — the mechanism behind the **mortal home**: protection is obscurity (a re-keyable share-trail), not invulnerability. [tentative]
 
 ## Purpose
 

@@ -2,14 +2,14 @@
 type: event
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [The Wake]
 updated: 2026-06-28
 ---
 
 # The Wake
 
-The network-wide activation of the dormant Gates — the in-world **year zero**. _Placeholder name_ (open) (src: raw/design-overview.md). [tentative]
+The network-wide activation of the dormant Gates — the in-world **year zero**. _Placeholder name_ (open). [tentative]
 
 ## When
 

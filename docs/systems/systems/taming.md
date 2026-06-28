@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Taming]
 updated: 2026-06-28
 ---
 
 # Taming
 
-_Stub — narrow scope decided (TAME-1), specifics open. See raw/design-overview.md → Taming, and [[rifts|Rifts]]._
+_Stub — narrow scope decided (TAME-1), specifics open. See [[rifts|Rifts]]._
 
 - **Narrow yes:** include **taming**; decline deep ARK-style breeding/genetics (a babysitting chore by construction — the exact pain Gaters is built to remove; see [[building|Building]]).
 - **Source:** creatures come **only from [[rifts|Rifts]]** — a monster-spill rolls a `tameable` tag; Rift rank scales rarity. No new spawn system.

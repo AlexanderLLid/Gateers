@@ -2,14 +2,14 @@
 type: organization
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [The Builders]
 updated: 2026-06-28
 ---
 
 # The Builders
 
-The precursor civilization that made the Gates — **unknown by design** (src: raw/design-overview.md). [decided]
+The precursor civilization that made the Gates — **unknown by design**. [decided]
 
 ## What is known
 

@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Holdings, Holding]
 updated: 2026-06-28
 ---
 
 # Holdings
 
-Assets staked _outside_ your home sustaining field — the one place the design admits **bounded offline raiding** without reviving the babysitting tax (src: raw/design-overview.md). [tentative]
+Assets staked _outside_ your home sustaining field — the one place the design admits **bounded offline raiding** without reviving the babysitting tax. [tentative]
 
 ## Purpose
 

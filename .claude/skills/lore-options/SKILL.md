@@ -20,7 +20,7 @@ The levers already live in the tech model (`docs/CONTEXT.md` → Storage, Stack,
 
 ## Balanced is the second bar
 
-A grounded path can still be a _bad_ path if it breaks the game's balance thesis: the **aggressor fantasy without the defender tax** (no base-babysitting, no decay, no offline raiding, no forced presence — the ARK/Rust pain Gaters reacts to). For every path, test it against the known **design traps** (src: raw/design-overview.md):
+A grounded path can still be a _bad_ path if it breaks the game's balance thesis: the **aggressor fantasy without the defender tax** (no base-babysitting, no decay, no offline raiding, no forced presence — the ARK/Rust pain Gaters reacts to). For every path, test it against the known **design traps** ([[pillars|Pillars]]):
 
 - **Turtle equilibrium** — sealed = safe forever with no downside, so nobody opens.
 - **Trade-suicide** — any economic act risks the whole base, so nobody trades.

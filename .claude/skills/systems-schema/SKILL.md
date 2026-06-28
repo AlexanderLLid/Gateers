@@ -28,7 +28,7 @@ Rules:
 - Code section: placeholder until the Unity project exists (then list C# classes/paths).
 - Use MDA vocabulary: a mechanic is a rule, a dynamic is what emerges in play.
 - Balance by default: each mechanic names the dev-tunable knob that keeps it healthy
-  and the **design trap** it guards against (defined in raw/design-overview.md). The
+  and the **design trap** it guards against (defined in [[pillars|Pillars]]). The
   bar is the aggressor fantasy without the **defender tax** — a dynamic that punishes
   an absent player has reinvented decay; flag it like a hard contradiction.
 

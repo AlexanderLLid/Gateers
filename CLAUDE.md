@@ -19,9 +19,10 @@ job, link instead of duplicating, no filler sections.
 
 ## Scope & priorities
 
-Wiki mode is **active**: `docs/lore/` + `docs/systems/` are the living, maintained layer;
-`docs/raw/design-overview.md` is now a **frozen founding source** (read, cite, don't edit in
-place). On any conflict with the frozen overview, the concept pages win.
+Wiki mode is **active**: `docs/lore/` + `docs/systems/` are the living, maintained wiki. Design
+material that isn't a lore/systems page lives in focused docs at the `docs/` root — `pillars.md`
+(cores, design traps, validation), `archetypes.md`, `gate-uses.md`, `art-direction.md`,
+`technical-challenges.md` — and architecture in `docs/adr/`.
 
 Scoped wiki: build pages for what's **decided or load-bearing**; stub or defer the rest. Don't
 fabricate detail to fill a page.
@@ -33,8 +34,8 @@ fabricate detail to fill a page.
 - **In depth:** **gate physics** — the one place to go deep. Bind every claim to real physics
   and tag it GROUNDED / STRETCH / CONCEIT. See [[gate-physics|Gate Physics]].
 - **Stubbed (link-out, not a full page):** still-open mechanics — taming, build depth, economy
-  specifics, trade, progression numbers, the mystery's true answer, art identity. A short page
-  pointing at the overview, expanded when it settles.
+  specifics, trade, progression numbers, the mystery's true answer, art identity. A short page,
+  expanded when it settles.
 - **Deferred entirely (no page; capture in `docs/raw/`):** specific characters, weapons, items,
   recipes, creatures, named places/factions, species, cultures, religions, myths, languages.
 - **Wanted later:** decided-but-deferred features (e.g. space gates) live in `docs/roadmap.md`.
@@ -45,7 +46,7 @@ A page or proposal must conform to the decisions already recorded — link to
 them, don't restate them. Each design/mechanics decision lives in its **concept page**
 (a `## Why / rejected` section); the load-bearing one is the **balance thesis** — the
 aggressor fantasy without the defender tax (see [[World Overview]]; the Four Design Traps
-live in raw/design-overview.md).
+live in `docs/pillars.md`).
 
 **Nothing is a hard rule right now.** Every recorded decision — the concept-page rationale,
 ADRs, the thesis, this schema — is provisional and open to change at this stage. A recorded
@@ -149,7 +150,7 @@ Maintained via /domain-modeling. Decisions live next to what they govern, plus o
 - **`docs/CONTEXT.md`** — the glossary (ubiquitous language): terms only, no lore
   or mechanics.
 - **Mechanic IDs** — mechanics carry **section-scoped IDs** (e.g. `SIEGE-1`, `ECON-2`),
-  tagged on their section header in `raw/design-overview.md`. IDs are local to a section
+  tagged on the section header of the concept page that owns them. IDs are local to a section
   so adding one never renumbers another. No separate registry file — the tagged headers are the index.
 
 Record a decision only when it is hard to reverse, surprising without context, and a real

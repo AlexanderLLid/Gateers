@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Economy]
 updated: 2026-06-28
 ---
 
 # Economy
 
-_Stub — drivers/sinks framed, numbers open. See raw/design-overview.md → Economy, Trade System._
+_Stub — drivers/sinks framed, numbers open._
 
 ## Drivers & sinks
 

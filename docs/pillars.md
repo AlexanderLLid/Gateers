@@ -1,6 +1,6 @@
 # Pillars
 
-The cores that must work. Full detail lives in [design-overview](raw/design-overview.md) and the concept pages — this is the focusing list.
+The cores that must work. Full detail lives in the concept pages — this is the focusing list.
 
 > Organized by **failure mode**, not by object — each core is something that can fail on its own and take the game down. Don't fold cores into the Gate just because they're Gate states (presence, tiered exposure and mask energy all are); nesting by object collapses the list and hides the distinct failures.
 
@@ -28,3 +28,24 @@ The cores that must work. Full detail lives in [design-overview](raw/design-over
 8. **Rifts** — the engagement engine while sealed; opportunity, not invasion.
 
 **Gate on all of it:** will players actually open their Gates? The greybox answers this before the rest matters.
+
+## Design traps (failure modes to avoid)
+
+Each is a way the exposure model could collapse; the design's counter is named.
+
+- **Turtle equilibrium** — if sealed = safe forever with no downside, everyone bunkers. _Counter:_ the [[economy|economy forces exposure]] (sealed stagnates), and sealing buys obscurity, not immunity ([[coordinates|the home is mortal]]).
+- **Trade-suicide** — if trading exposes the vault like raiding, every economic act invites a wipe. _Counter:_ tiered exposure — [[gates|port-open]] risks cargo, not the vault.
+- **Offline-dodge** — instant-seal mid-raid kills raiding; can't-close traps you online. _Counter:_ presence + the committed [[raiding|siege clock]] (opt-in, finite, no offline jump).
+- **Zerg pile-on** — if opening exposes you to everyone, mass wins. _Counter:_ [[raiding|bilateral directional tunnels]] (contained duels).
+- **Whale / newbie-farming** — a megabase griefing small players kills retention. _Counter:_ obscurity + uphill [[rifts|Rift-visibility]] (a whale can't see a small player's Rifts to harvest their shares).
+- **Doorstep kill-box** — walling the aperture into a sealed box nullifies raiding. _Counter:_ the [[combat|dome]] destroys manual builds (not terrain) — fortify the perimeter at range, never the doorstep.
+
+## Validation — greybox before art
+
+- The biggest risk is **not technical** — it's whether **opt-in, presence-gated raiding is fun** (will players open their Gates?). Build a **greybox proof** before any art.
+- **Minimum viable slice:** sealed/open states, a bilateral raid tunnel, loot worth taking, economic pressure against permanent sealing, real PvP combat. **Ground Gates only**; space Gates later.
+- **Design for success enabling expansion, not requiring it** — a working small version is a complete thing, not a broken large one. (Build-cost detail: [technical-challenges.md](technical-challenges.md).)
+
+## Standing constraint — IP / originality
+
+The Gate/wormhole _mechanic_ is genre-generic, but Gaters must avoid Stargate's _expression_: no "Stargate," no Egyptian skin, no chevron/glyph set, no copied proper nouns, no ascended-precursor lore, no named dialing device. Original names and story throughout. (A practical design line, not legal advice.)

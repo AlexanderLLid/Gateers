@@ -2,14 +2,14 @@
 type: location
 status: draft
 tags: [hub]
-sources: [raw/design-overview.md]
+sources: []
 aliases: [World Types, Regions]
 updated: 2026-06-28
 ---
 
 # World Types
 
-The place-types of Gaters, kept high-level (src: raw/design-overview.md). They double as the unlock ladder (see [[progression|Progression]]). [tentative]
+The place-types of Gaters, kept high-level. They double as the unlock ladder (see [[progression|Progression]]). [tentative]
 
 ## The types
 

@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Consciousness Link, Consciousness-Link]
 updated: 2026-06-28
 ---
 
 # Consciousness Link
 
-The in-world layer under presence, respawn, and sanctioned violence: your body stays on Earth and you pilot a projected avatar (src: raw/design-overview.md). [tentative]
+The in-world layer under presence, respawn, and sanctioned violence: your body stays on Earth and you pilot a projected avatar. [tentative]
 
 ## Purpose
 

@@ -14,7 +14,7 @@ The user's two example shapes are the target: "not all Gates are open _because o
 
 ## Grounded isn't enough — it must also hold the balance thesis
 
-A direction can hand the devs a clean lever and still wreck the game by reinstating the **defender tax** or reopening a **design trap** — the failure modes Gaters exists to design out (raw/design-overview.md; thesis in [[World Overview]]). That's colour with a cost: drop it, or name the dev knob that keeps the trap closed. Apply this per direction at the `lore-options` "second bar".
+A direction can hand the devs a clean lever and still wreck the game by reinstating the **defender tax** or reopening a **design trap** — the failure modes Gaters exists to design out ([[pillars|Pillars]]; thesis in [[World Overview]]). That's colour with a cost: drop it, or name the dev knob that keeps the trap closed. Apply this per direction at the `lore-options` "second bar".
 
 ## Process
 

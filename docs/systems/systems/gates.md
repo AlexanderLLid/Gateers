@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Gates]
 updated: 2026-06-28
 ---
 
 # Gates
 
-The central object: every planet-base sits on a Gate, and all reach flows through it. The deep physics treatment is [[gate-physics|Gate Physics]]; this page is the game model (src: raw/design-overview.md).
+The central object: every planet-base sits on a Gate, and all reach flows through it. The deep physics treatment is [[gate-physics|Gate Physics]]; this page is the game model.
 
 ## Purpose
 

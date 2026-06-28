@@ -7,7 +7,7 @@ questions** — things not yet settled.
 Resolve an item → fold the decision (its _why_ + what you rejected) into the relevant
 **concept page** (a `## Why / rejected` section), flip that page's tag
 `[tentative]→[decided]`, and strike it here. Use /domain-modeling. (Technical / code choices
-still get an **ADR** in `docs/adr/`.) Source: raw/design-overview.md.
+still get an **ADR** in `docs/adr/`.)
 
 Decided so far (folded into the concept pages — see each page's _Why / rejected_): the game is
 named after its players, reach-equals-exposure, players-are-human ([[World Overview]]); Authority

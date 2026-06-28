@@ -2,14 +2,14 @@
 type: overview
 status: draft
 tags: [hub]
-sources: [raw/design-overview.md]
+sources: []
 aliases: [World Overview]
 updated: 2026-06-28
 ---
 
 # World Overview
 
-Entry point to the Gaters lore. Short by design — link out (src: raw/design-overview.md).
+Entry point to the Gaters lore. Short by design — link out.
 
 ## Premise
 

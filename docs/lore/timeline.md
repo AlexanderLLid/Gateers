@@ -2,7 +2,7 @@
 type: timeline
 status: draft
 tags: [hub]
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Timeline]
 updated: 2026-06-28
 ---

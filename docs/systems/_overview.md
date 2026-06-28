@@ -2,14 +2,14 @@
 type: overview
 status: draft
 tags: [hub]
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Systems Overview]
 updated: 2026-06-28
 ---
 
 # Systems Overview
 
-Map of Gaters mechanics. Locked + load-bearing systems have pages; still-open ones are stubs that link to the overview (src: raw/design-overview.md).
+Map of Gaters mechanics. Locked + load-bearing systems have pages; still-open ones are stubs that link to the overview.
 
 ## Core idea
 
@@ -17,7 +17,7 @@ Map of Gaters mechanics. Locked + load-bearing systems have pages; still-open on
 
 ## Core loop [tentative]
 
-The cycle the thesis produces, at three scales (src: raw/design-overview.md). This is the map for the parts below — **documented here only; other pages link here, they don't restate it.**
+The cycle the thesis produces, at three scales. This is the map for the parts below — **documented here only; other pages link here, they don't restate it.**
 
 - **Moment-to-moment** — sealed solo PvE: explore, gather, build. To act you open the [[Gates|Gate]] (port- or gate-open) and accept risk → push a directional [[raiding|raid]] tunnel under a [[mask-energy|mask energy]] leash, or [[combat|defend]] under a siege timer you opted into.
 - **Session** — log in (stuff intact, no decay) → stay sealed and build, port to trade, or open to raid / visit a [[hub-worlds|hub world]] → resolve finite engagements → reseal and log off. No maintenance obligation.

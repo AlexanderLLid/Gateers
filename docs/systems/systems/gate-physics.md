@@ -2,7 +2,7 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Gate Physics]
 updated: 2026-06-27
 ---
@@ -12,8 +12,7 @@ updated: 2026-06-27
 The one area we go deep. Gating must bind to real physics, so every claim is
 tagged: **GROUNDED** (real physics supports it), **STRETCH** (extrapolated but
 defensible), or **CONCEIT** (game fiction, no physical basis — keep it, just
-never dress it as real). Add new physics claims here and tag them (src:
-raw/design-overview.md).
+never dress it as real). Add new physics claims here and tag them.
 
 ## Basis — a traversable wormhole
 

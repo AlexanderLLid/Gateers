@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Hub Worlds, Hub World]
 updated: 2026-06-28
 ---
 
 # Hub Worlds
 
-Neutral, **lawless commerce crossroads** — trade routing nodes you can capture for the tax (src: raw/design-overview.md). [tentative]
+Neutral, **lawless commerce crossroads** — trade routing nodes you can capture for the tax. [tentative]
 
 ## Purpose
 

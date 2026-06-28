@@ -16,7 +16,7 @@ Attack the **consequence**. Once a premise is granted, everything downstream mus
 - **Unreckoned** — a premise has an obvious implication the world never addresses. _If Coordinates can be stolen, what stops a leaked address from making a planet permanently raidable — is there re-keying?_ These are the most valuable holes; chase them hardest.
 - **Premise vs premise** — two granted premises contradict each other.
 - **Hand-wave** — plausible but unexplained; one line of lore would close it. Lowest severity.
-- **Balance regression** — the claim reinstates the **defender tax** or reopens a **design trap** the world exists to remove (defined in raw/design-overview.md; thesis in [[World Overview]]). Top severity — it is the one thing the whole world is built to avoid. The tell: an absent player who loses something, or a sealed home that can be punched open.
+- **Balance regression** — the claim reinstates the **defender tax** or reopens a **design trap** the world exists to remove (defined in [[pillars|Pillars]]; thesis in [[World Overview]]). Top severity — it is the one thing the whole world is built to avoid. The tell: an absent player who loses something, or a sealed home that can be punched open.
 
 ## Process
 

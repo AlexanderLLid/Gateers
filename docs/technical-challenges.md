@@ -2,13 +2,13 @@
 
 What is hard to _build_ about a game like this, and which gate lore/mechanic pays each
 bill. A focusing doc, like [pillars](pillars.md); full design lives in
-[design-overview](raw/design-overview.md) and the concept pages.
+[the architecture ADR](adr/0002-architecture-and-stack.md) and the concept pages.
 
 > **The core insight.** The Gate is an **engineering device dressed as lore.** Almost
-> every architectural decision in [design-overview](raw/design-overview.md) (Multiplayer /
+> every architectural decision in [the architecture ADR](adr/0002-architecture-and-stack.md) (Multiplayer /
 > Networking, Tech Stack) is a hard problem of survival-PvP-MMOs that the Gate fiction
 > _removes_ rather than solves. So the lens isn't "what's hard" — it's "what's hard _after_
-> the Gate already paid for most of it." The design's own [validation plan](raw/design-overview.md)
+> the Gate already paid for most of it." The design's own [validation plan](pillars.md)
 > says the top risk is **not technical** — it's whether players will open their Gates. This
 > doc scopes the technical residue under that.
 
@@ -20,8 +20,7 @@ Each is a genre-standard hard problem the design has already traded away. Don't 
 them; just don't break the fiction that pays for them.
 
 - **Seamless space-to-surface flight** → **Gate loads.** NMS's hardest engineering problem
-  is sidestepped: you never fly planet-to-space continuously, you dial and load (src:
-  raw/design-overview.md, Aesthetic).
+  is sidestepped: you never fly planet-to-space continuously, you dial and load (see the design docs).
 - **A persistent shared world to simulate 24/7** → **presence requirement + sealed-by-default.**
   A Gate is open only while its owner is online and chose it. Offline = sealed = nothing to
   simulate. No offline base sim, no decay tick, no sleeping-base economy. The single biggest
@@ -30,12 +29,10 @@ them; just don't break the fiction that pays for them.
 - **An authority transition between solo and contested play** → **server-authoritative always.**
   One authority owns each planet at all times, so there is no transition between authority models
   to reconcile or exploit. The cost cap comes from the presence requirement: only online players'
-  planets are simulated, and solo/sealed building — having no adversary — ticks cheaply (src:
-  raw/design-overview.md, Multiplayer).
+  planets are simulated, and solo/sealed building — having no adversary — ticks cheaply (see the design docs).
 - **World-size-proportional cost** → **three-state planet + seed-plus-deltas.** A planet is a DB
   row (**empty**) → a cheap server-side tick (**solo**) → a full spun-up instance
-  (**contested**). Server cost ∝ online players, not world size (src: raw/design-overview.md,
-  Multiplayer).
+  (**contested**). Server cost ∝ online players, not world size (see the design docs).
 - **Massive concurrent battles as the default** → **bilateral directional tunnels.** A raid is a
   two-party instance, not an N-body shared zone. Trivially shardable; no thundering-herd
   simulation in the common case (Directional Bilateral Tunnels, anti-zerg).
@@ -44,10 +41,9 @@ them; just don't break the fiction that pays for them.
   ([[raiding|Raiding]], [[Gate Physics]] §Time).
 - **Bounding the simulated volume** → **mask field + the dome.** Only the area around an _active_
   Gate needs simulating; the field radius is the soft world border and the dome bounds the combat
-  arena (src: raw/design-overview.md, Sustaining Field; [[combat|the dome]]).
+  arena (see the design docs).
 - **Infinite/contiguous procedural universe** → **discrete, seedable planets loaded one at a
-  time.** Each planet is an isolated bounded chunk behind a `PlanetGenerator` abstraction (src:
-  raw/design-overview.md, Tech Stack).
+  time.** Each planet is an isolated bounded chunk behind a `PlanetGenerator` abstraction (see the design docs).
 
 ---
 
@@ -58,8 +54,7 @@ What the Gate fiction does _not_ already pay for. Ranked by severity for a **sol
 ### 1. Two worlds, live, through an open Gate — _highest_
 
 - **The problem.** The design wants breaching to be "a firefight at the aperture, not a loading
-  screen": weapons fire and momentum **pass through** a live Gate (src: raw/design-overview.md,
-  The Gate System; [[Gate Physics]] §What passes through). That means rendering and simulating
+  screen": weapons fire and momentum **pass through** a live Gate (see the design docs). That means rendering and simulating
   **two planets at once** through a portal — the Portal/Prey rendering problem, plus two physics
   scenes, plus netcode spanning them. Genuinely hard in Unity solo.
 - **The lever:**
@@ -108,7 +103,7 @@ What the Gate fiction does _not_ already pay for. Ranked by severity for a **sol
 ### 5. The many-vs-many exception — hubs, Open Rifts, server events — _medium, but cappable_
 
 - **The problem.** [[Hub Worlds]], Open Rifts, and server-wide top-rank Rifts are _explicitly_
-  many-vs-many (src: raw/design-overview.md). This is where "instancing makes it cheap" breaks —
+  many-vs-many (see the design docs). This is where "instancing makes it cheap" breaks —
   the expensive concurrent-simulation case the rest of the design avoids. Hub _balance_ is also
   flagged unsolved (Conflict #6).
 - **The lever:** these are **few, optional, and bounded.** Hubs can be hard-capped in concurrency;
@@ -120,14 +115,12 @@ What the Gate fiction does _not_ already pay for. Ranked by severity for a **sol
 
 - **The problem.** Many varied planets, reproducible from seed. Content breadth is a time sink for
   a solo dev even with good tooling.
-- **The lever:** the **`PlanetGenerator` abstraction from day one** (src: raw/design-overview.md,
-  Tech Stack) makes this a single-class swap — greybox ships a trivial generator; richness lands
+- **The lever:** the **`PlanetGenerator` abstraction from day one** (see the design docs) makes this a single-class swap — greybox ships a trivial generator; richness lands
   later without touching the rest. Field radius bounds how much of each planet must be generated.
 
 ### 7. The web export's real ceiling — _low-medium_
 
-- **The problem.** The plan is native-first with a **web export as a playtest funnel** (src:
-  raw/design-overview.md, Tech Stack). Unity WebGL can't match native on threading, memory, and
+- **The problem.** The plan is native-first with a **web export as a playtest funnel** (see the design docs). Unity WebGL can't match native on threading, memory, and
   networking transport — the funnel build can't be the full game.
 - **The lever:** scope the web build as a **demo slice**, not parity — a single planet, a single
   raid, no heavy orchestration. The instancing model helps: a web client can host/join one
@@ -138,8 +131,7 @@ What the Gate fiction does _not_ already pay for. Ranked by severity for a **sol
 - One person building portal rendering + on-demand orchestration + procedural gen + combat +
   netcode is enormous, _even after_ the Gate removes the worst of it.
 - **The lever is the design's own discipline:** "design for success enabling expansion, not
-  requiring it" — a working small version is a complete thing, not a broken large one (src:
-  raw/design-overview.md, Validation Plan). Every item above has a **named cheap path** for the
+  requiring it" — a working small version is a complete thing, not a broken large one (see the design docs). Every item above has a **named cheap path** for the
   greybox; the residue is real but each piece has a smaller first version.
 
 ---
@@ -157,14 +149,14 @@ not just a story one. Surface in the concept pages when confirmed.
   count of physics objects transferring at the aperture (#2).
 - **The Authority registry as the one sanctioned global DB** — centralize _all_ unavoidable shared
   state into the Authority fiction; everything else stays instanced. Pays #4.
-- **Open Rifts collapse on a countdown** — already canon (src: raw/design-overview.md, Rifts);
+- **Open Rifts collapse on a countdown** — already canon (see the design docs);
   note it doubles as the auto-teardown that keeps the many-vs-many case bounded (#5).
 
 ---
 
 ## What the greybox must prove (technical subset)
 
-The [validation plan](raw/design-overview.md) names the _fun_ question (will players open their
+The [validation plan](pillars.md) names the _fun_ question (will players open their
 Gates). The technical questions it should also answer, cheaply, in order:
 
 1. The **aperture fight** (#1/#2): does "firefight at the door" work at all? Ship the degraded
@@ -180,7 +172,7 @@ should stay out of the first proof.
 ## See also
 
 - [pillars](pillars.md) — the cores that must work (this doc is their build-cost shadow).
-- [design-overview](raw/design-overview.md) — Multiplayer / Networking, Tech Stack, Validation Plan.
+- [the architecture ADR](adr/0002-architecture-and-stack.md) — Multiplayer / Networking, Tech Stack, Validation Plan.
 - [open-questions](open-questions.md) — Conflicts #5 (anonymity vs. registry), #6 (hub zerg).
 - [[Gate Physics]] — what passes through, the dome, aperture-driven sizing.
 - Concepts: [[combat|the dome]], [[raiding|the raid clock]] (clock ceiling),

@@ -2,14 +2,14 @@
 type: system
 status: draft
 tags: []
-sources: [raw/design-overview.md]
+sources: []
 aliases: [Combat]
 updated: 2026-06-28
 ---
 
 # Combat
 
-Third-person, gear-and-positioning PvP — the model resolved enough to greybox (src: raw/design-overview.md). [tentative]
+Third-person, gear-and-positioning PvP — the model resolved enough to greybox. [tentative]
 
 ## Purpose
 
