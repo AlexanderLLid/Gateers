@@ -1,0 +1,12 @@
+# Normalize all text files to LF — in the repo and in every working tree,
+# regardless of each contributor's core.autocrlf setting. Stops the
+# "LF will be replaced by CRLF" warnings and keeps diffs clean cross-platform.
+* text=auto eol=lf
+
+# Binary assets Git must never touch (Obsidian attachments, etc.).
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.pdf  binary
