@@ -1,7 +1,7 @@
 # CLAUDE.md - Gaters
 
 THIS IS A WOP FEEL FREE TO SUGGEST CHANGES TO ANYTHING ANYTIME. Nothing is set in stone.
-Never branch off, we always work on main
+Never branch off and never open PRs — we always work on main. Commit locally; don't push unless asked (the human reviews first).
 
 This is the **parent repo** for the game Gaters. Right now it holds **design docs
 only** (in `docs/`). The Unity game is added later as a sibling folder under this
@@ -175,5 +175,5 @@ no separate changelog.
 ## Notes
 
 - Markdown + Obsidian vault under git. Commits are the history.
-- **Git: never branch. Commit straight to `main` and push immediately** — every change goes directly to `main`.
+- **Git: never branch, never open PRs.** Commit straight to `main`, but **don't push unless asked** — the human reviews local commits first.
 - Keep this schema lean. Add a short rule when a mistake repeats, not an essay.
