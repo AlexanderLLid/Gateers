@@ -33,6 +33,11 @@ enters the lore or systems wikis.
   no quest pointed you at, a mechanic that combines in ways the designers didn't
   spell out. Reward curiosity and experimentation over following a marker. Design
   for surprise, not a guided tour.
+- **Endgame = EVE × Solo Leveling.** A player-driven world of blocs, territory, and
+  real loss (EVE) wearing the underdog punch-up power fantasy (Solo Leveling): you
+  raid _up_, the strong are the prize, and nobody babysits a base — _except_ a huge
+  tribe, whose reach keeps it permanently exposed. This is the "no defender tax"
+  thesis taken to its endgame, not a new rule (see `pillars.md`, [[World Overview]]).
 
 ## Wants — no home yet
 
@@ -87,6 +92,10 @@ if reskinned.
     Our humanoids come through **Gates** — the question doesn't need a creation
     myth, and answering it this way invites the comparison. If origin ever matters,
     make it about the Gates, not a benevolent dead god.
+- **Theme-park gates.** Curated, on-rails attractions — each gate a hand-built ride
+  with a scripted encounter and a guaranteed payout. Kills accidental discovery
+  (see Feel) and turns the network into a content menu. Gates are destinations
+  players exploit and contest, not exhibits we stage.
 
 ## The rule
 
