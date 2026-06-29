@@ -23,7 +23,7 @@ The network's **clearinghouse** — not a government but an **offhand broker**. 
 - **Demand-driven dialing (the frontier default):** a world is an empty database row until a player spends a core and supplies coordinates — dialing _is_ provisioning, so an instance exists only while someone pays to sustain it.
 - **Exchange listings (the published core):** the broker **opens lanes for dialing** as the network stabilises and publishes them — a server-side allowlist the studio controls. It is the lever for staged rollout and content drops, delivered diegetically as **broker bulletins / new listings** ("broker as patch channel"). The Safe Core is always listed; new tiers ship as new listings.
 - Invariant: listings govern reaching **others'/new** worlds, never **your own** home Gate — so the no-offline-loss-by-neglect guarantee is untouched.
-- It runs its own **exchange floor** — the [[world-types|Safe Core]], where commerce clears under **house rules** (orderly because it's the broker's floor, not because the broker polices the frontier), distinct from the lawless [[hub-worlds|hub]] crossroads.
+- It **controls** its own **exchange floor** — the [[world-types|Safe Core]], policed and safe for commerce. Its grip there is **total**; on the frontier it is **absent** (it brokers access, nothing more). That contrast — iron hub, lawless frontier — is the shape of its power, distinct from the lawless [[hub-worlds|hub]] crossroads.
 
 ## Hands-off by design
 
