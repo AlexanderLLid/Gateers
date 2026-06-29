@@ -42,7 +42,7 @@ avatar-shares ([[coordinates|Coordinates & Obscurity]]); Rifts as the PvPvE extr
 
 ## Biggest open design questions
 
-1. **Is the core fun real?** Will players actually open their Gates? (The greybox must answer.)
+1. **Is the core fun real, and will players open their Gates?** Two questions, two scales: the greybox proves the loop is _fun_; whether the population actually _opens up_ is an equilibrium that only resolves at playtest scale, not greybox — **assume-and-commit** ([[Systems Overview]], [[pillars|Pillars]]).
 2. ~~**What governs the raid clock**~~ — decided: the attacker's away reserve, fixed by home-Gate power, un-pumpable. ([[raiding|Raiding]])
 3. **How hard should stagnation push** without becoming upkeep?
 4. **Which mystery truth** is canon (outside signal / tripwire / Coalition lie)? ([[the-wake|The Wake]]) (Coalition's motive now decided — threat-to-Earth reconnaissance, see [[united-gate-coalition|United Gate Coalition]] — which colours but does **not** pick the truth; the three candidates stay open.)

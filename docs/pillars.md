@@ -27,7 +27,7 @@ The cores that must work. Full detail lives in the concept pages — this is the
    - Server cost ∝ online players, not world size.
 8. **Rifts** — the engagement engine while sealed; opportunity, not invasion.
 
-**Gate on all of it:** will players actually open their Gates? The greybox answers this before the rest matters.
+**Gate on all of it:** will players actually open their Gates? Make-or-break — and the one thing a greybox **can't** settle: it's a population equilibrium, not a feel. The greybox proves the loop is _fun_; whether the population _opts in_ only shows at playtest scale (see Validation).
 
 ## Design traps (failure modes to avoid)
 
@@ -40,9 +40,12 @@ Each is a way the exposure model could collapse; the design's counter is named.
 - **Whale / newbie-farming** — a megabase griefing small players kills retention. _Counter:_ obscurity + uphill [[rifts|Rift-visibility]] (a whale can't see a small player's Rifts to harvest their shares).
 - **Doorstep kill-box** — walling the aperture into a sealed box nullifies raiding. _Counter:_ the [[combat|dome]] destroys manual builds (not terrain) — fortify the perimeter at range, never the doorstep.
 
-## Validation — greybox before art
+## Validation — two questions, two scales
 
-- The biggest risk is **not technical** — it's whether **opt-in, presence-gated raiding is fun** (will players open their Gates?). Build a **greybox proof** before any art.
+Two risks, de-risked differently. Don't conflate them.
+
+- **Is the loop fun? — greybox-answerable.** Do the exposure states, the bilateral tunnel, the siege clock, and real PvP combat feel good moment-to-moment? Build a **greybox proof** before any art. Cheap, early, and _necessary but not sufficient_.
+- **Will the population open up rather than turtle? — only shows at scale.** The real make-or-break, and a greybox **cannot** settle it: open-vs-bunker is an emergent **equilibrium** of a live economy — it needs hundreds of players, market depth, and social pressure before it stabilises. Five testers say nothing about where 500 land. Treat it **assume-and-commit** ([[Systems Overview]]): reason from games that ran the experiment (Rust, EVE, Albion, Foxhole), model the [[economy|economic pressure]], and prove it only at a **scaled paid playtest**. The biggest risk is the one you can't cheaply prove.
 - **Minimum viable slice:** sealed/open states, a bilateral raid tunnel, loot worth taking, economic pressure against permanent sealing, real PvP combat. **Ground Gates only**; space Gates later.
 - **Design for success enabling expansion, not requiring it** — a working small version is a complete thing, not a broken large one. (Build-cost detail: [technical-challenges.md](technical-challenges.md).)
 
