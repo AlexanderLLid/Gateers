@@ -25,12 +25,13 @@ The network's **clearinghouse** — not a government but an **offhand broker**. 
 - Invariant: listings govern reaching **others'/new** worlds, never **your own** home Gate — so the no-offline-loss-by-neglect guarantee is untouched.
 - It **controls** its own **exchange floor** — the [[world-types|Safe Core]], policed and safe for commerce. Its grip there is **total**; on the frontier it is **absent** (it brokers access, nothing more). That contrast — iron hub, lawless frontier — is the shape of its power, distinct from the lawless [[hub-worlds|hub]] crossroads.
 
-## Hands-off by design
+## Hands-off by design — can't hold it, doesn't want to
 
-- The Authority **brokers access to the network and clips a cut — it does not pick winners.** It charters all comers on equal terms and lets solos, corporations, and groups fight over the frontier; the churn _is_ the business model.
-- This is the in-world **license for the competitive sandbox**: claiming, raiding, trading, sprawling are all permitted because the Authority simply **doesn't intervene** between charter-holders — past its writ, "reach equals exposure" is the only law.
-- The frontier _behaves_ like natural selection, but that is the **system's nature, not the Authority's plan** — selection is the Builders' machine, not an Authority program (see [[world-spine|World Spine]]). The Authority may not even understand what the network is doing.
-- Its few protective rules are **administrative self-interest, not mercy**: uphill [[rifts|Rift-visibility]] + home [[coordinates|obscurity]] stop the strong from trivially farming the undeveloped — a productive frontier keeps paying tithe; a curb-stomped one doesn't.
+- **It can't.** The network is Builder tech the Authority only half-decodes — too vast and alien to police or hold back. It can open lanes and clip a cut; it **cannot steer the frontier.** The selection, the [[rifts|Rifts]], what the network is _for_ — all the machine's, beyond its reach (see [[world-spine|World Spine]]; it may not even see what the machine is doing).
+- **It doesn't want to.** What the frontier yields — resources, energy, salvaged Builder tech — flows **back to Earth, which needs it.** Loosing thousands of self-interested gaters is the fastest way to extract that windfall, so hands-off is the **strategy, not a failure**: open the floodgates, skim the flow. _(How badly Earth needs it, and what "it" is, stays open — don't over-specify.)_ [tentative]
+- This is the in-world **license for the competitive sandbox**: claiming, raiding, trading, sprawling are all permitted because the Authority **gains from the churn and couldn't curb it anyway** — past its writ, "reach equals exposure" is the only law.
+- **Two layers hold here too:** the honest surface motive — _get rich, feed Earth_ — is real; the hidden truth, that the frontier _is_ the [[world-spine|gene-selection engine]], is something the Authority neither built nor sees. Patriotic gold rush on top, cosmic indifference underneath.
+- Its few protective rules are **self-interest, not mercy**: uphill [[rifts|Rift-visibility]] + home [[coordinates|obscurity]] stop the strong from trivially farming the undeveloped — a productive frontier keeps yielding; a curb-stomped one doesn't.
 
 ## The body — a backed-up clone
 
@@ -42,7 +43,7 @@ The network's **clearinghouse** — not a government but an **offhand broker**. 
 
 - **Network = mesh-with-a-heart**, chosen over pure hub-and-spoke — spokes would break the bilateral raid tunnel and the direct-dial-vs-hub economy.
 - **Certified provisioning**, chosen over pure demand-dialing (gives the studio no rollout/capacity lever) and over per-Gate stability _windows_ (the strongest capacity lever, but it pulls players onto the network's schedule — eroding the no-obligation thesis — and double-books the Rift cosmology; held for frontier worlds later).
-- **Hands-off administrator**, chosen over the Authority as a covert schemer breeding humanity — selection belongs to the Builders' machine, which keeps PvP licensed without a sinister overseer and puts the competition in the players' hands (corps and groups, not the Authority). See [[world-spine|World Spine]].
+- **Hands-off broker (can't hold it, doesn't want to)**, chosen over the Authority as a covert schemer breeding humanity — selection belongs to the Builders' machine. It half-understands the network (can't police it) and profits by piping the frontier's yield back to Earth (won't): PvP stays licensed without a sinister overseer, and the competition sits with the players (corps and groups). See [[world-spine|World Spine]].
 
 ## Open questions
 
