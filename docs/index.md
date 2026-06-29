@@ -28,7 +28,7 @@ in CLAUDE.md). Inline tags say how settled a claim is:
 ### Organizations
 
 - [[the-builders|The Builders]] — the unknown precursor gate-makers; the long-game mystery engine.
-- [[central-authority|Central Authority]] — administrates the Gate network and charters all comers (solos, corps, groups); hands-off (selection is the system's nature, not its scheme).
+- [[central-authority|Central Authority]] — the network's offhand broker/clearinghouse: brokers Gate access to all comers (solos, corps, groups), clips a cut, picks no winners (selection is the system's nature, not its scheme).
 
 ### Locations
 
