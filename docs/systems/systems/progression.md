@@ -15,7 +15,7 @@ _Stub — drivers + the homesteader ceiling decided; tech tree open._
 - **Gate tiers are driven, not built** — see [[Gates]] and [[gate-physics|Gate Physics]].
 - **No base decay** anywhere (BUILD-1).
 - **Character progression = two-layer mind/avatar XP** — see [[consciousness-link|Consciousness Link]] (XP-1).
-- **Sealed soft ceiling (PROG-2):** a fully-sealed homesteader progresses **forever up to a soft ceiling** (frontier tiers need opening), then plateaus — never decays, never punished. Safe because a never-leaver stays [[coordinates|unfound]].
+- **Homesteader soft ceiling (PROG-2):** a stay-at-home homesteader progresses **forever up to a soft ceiling** (frontier tiers need opening), then plateaus — never decays, never punished. Safe because a never-leaver stays [[coordinates|unfound]].
 
 ## Open questions
 

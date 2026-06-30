@@ -21,15 +21,16 @@ them; just don't break the fiction that pays for them.
 
 - **Seamless space-to-surface flight** → **Gate loads.** NMS's hardest engineering problem
   is sidestepped: you never fly planet-to-space continuously, you dial and load (see the design docs).
-- **A persistent shared world to simulate 24/7** → **presence requirement + sealed-by-default.**
-  A Gate is open only while its owner is online and chose it. Offline = sealed = nothing to
-  simulate. No offline base sim, no decay tick, no sleeping-base economy. The single biggest
-  server saving, and it's a _gameplay pillar_ ([[World Overview|reach equals exposure]], Presence
-  Requirement).
+- **A persistent shared world to simulate 24/7** → **dormant-until-contested instancing.**
+  An un-raided base is a **dormant database row**, not a running simulation; it spins into a live
+  instance only when someone actually dials in (a raid) or the owner is playing there. Offline and
+  un-contested = nothing to tick — no offline base sim, no decay tick, no sleeping-base economy. The
+  single biggest server saving, and it falls straight out of the [[Gates|reachability]] + instancing
+  model ([[World Overview|reach equals exposure]]).
 - **An authority transition between solo and contested play** → **server-authoritative always.**
   One authority owns each planet at all times, so there is no transition between authority models
-  to reconcile or exploit. The cost cap comes from the presence requirement: only online players'
-  planets are simulated, and solo/sealed building — having no adversary — ticks cheaply (see the design docs).
+  to reconcile or exploit. The cost cap comes from instancing: only **active or contested** planets
+  are simulated, and solo building — having no adversary — ticks cheaply (see the design docs).
 - **World-size-proportional cost** → **three-state planet + seed-plus-deltas.** A planet is a DB
   row (**empty**) → a cheap server-side tick (**solo**) → a full spun-up instance
   (**contested**). Server cost ∝ online players, not world size (see the design docs).

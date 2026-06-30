@@ -13,7 +13,7 @@ Canonical order of events. Link each entry to its event page as events are creat
 
 ## Before
 
-- The **Builders'** era, then an indeterminate **dormancy** of the sealed network. Nothing dated is established — do not invent. (See [[the-builders|The Builders]], [[World Overview]].)
+- The **Builders'** era, then an indeterminate **dormancy** of the network. Nothing dated is established — do not invent. (See [[the-builders|The Builders]], [[World Overview]].)
 
 ## Year zero
 

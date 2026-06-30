@@ -64,8 +64,10 @@ the Morris–Thorne–Yurtsever (1988) time-machine result. [GROUNDED.] A fixed
 
 A Morris–Thorne throat is two-way and transparent: light and matter cross, with
 **momentum and energy conserved**. [GROUNDED.] So "fire and momentum carry through
-an open Gate" is real. "One-way from the dialing side" and "**sealed by default**"
-are gameplay gating with no physical basis [CONCEIT] — flag them as rules.
+an open Gate" is real. "One-way from the dialing side" is gameplay gating with no
+physical basis [CONCEIT] — flag it as a rule. A Gate **at rest is just an un-propped
+throat** (collapsed; GROUNDED): the caller re-kindles it by channeling a core, so
+there is **no separate "sealed" state** to invent — only dialable-if-found.
 
 ## Aperture size — driven, not built
 
@@ -94,7 +96,6 @@ how.
 
 ## Pure conceits (do not claim physics)
 
-- A sealed-but-sub-traversable default state (GR throats are open or collapsed).
 - A life-support field that weakens with radius.
 - Rifts clustering near Gates.
 - The gate dome: a protective field that shields transit and destroys only _built_ matter
@@ -106,8 +107,9 @@ Placeholder until the Unity project exists.
 
 ## Open questions
 
-- Pick one self-consistent story for "sealed by default" that doesn't contradict
-  collapse physics (a mechanical shutter? a throat kept collapsed and re-kindled?).
+- ~~Pick a self-consistent story for "sealed by default"~~ — resolved: there is **no
+  sealed state**; a Gate at rest is the **un-propped (collapsed) throat**, re-kindled by
+  the caller (see [[gates|Gates]] GATE-2). The earlier "sealed-but-traversable" conceit is dropped.
 - Decide whether a power core **is** the exotic matter, or powers a device that
   confines it.
 - Tracked with the rest in open-questions.md.

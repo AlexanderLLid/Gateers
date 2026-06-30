@@ -18,7 +18,7 @@ The central object: every planet-base sits on a Gate, and all reach flows throug
 
 ## How it works
 
-- **Woke sealed; unmanufacturable.** The network came online with every aperture shut (safe-by-default), and Gates can only be **found, claimed, repaired** — never built (GATE-1).
+- **Woke dormant; unmanufacturable.** The network came online with every Gate **dormant** — an un-propped, un-dialed ring (see [[gate-physics|Gate Physics]]) — and Gates can only be **found, claimed, repaired**, never built (GATE-1).
 - **Travel is one-way and directional.** The _dialing_ side opens the tunnel and pays the power, so a raid is inherently the attacker pushing through a tunnel they opened.
 - **Fire and momentum pass through** a live Gate — breaching is a firefight at the aperture, not a loading screen (see [[gate-physics|Gate Physics]], [[combat|Combat]]).
 - **Dialing needs the target's [[coordinates|coordinates]]** — a planet whose coordinate nobody has assembled is effectively hidden.
@@ -35,18 +35,12 @@ The central object: every planet-base sits on a Gate, and all reach flows throug
 - **Loose idea, needs tuning — nothing depends on it.** Gates differ (field size, stability, what they dial, what grows there) maybe because each carries a small Builder-seeded **config** the [[builders-truth|von Neumann probes]] tuned **blind** — they couldn't predict a config's behaviour, so gates came out imperfectly/variously tuned. That imperfection is the variety.
 - Just an explainer for _why gates aren't all the same_. It doesn't touch dialing/findability (still [[coordinates|coordinates]]), it's **not** a selection system (explored and rejected — open-questions.md #22), and the _why_ behind the probes stays parked. Shape it properly if/when it matters.
 
-## Exposure states — sealed / port-open / gate-open (STATE-1)
+## Reachability — found, not sealed (GATE-2)
 
-- **Sealed** — safe _while unfound_, isolated, stagnant; **not inviolable** (a found home is raidable — see [[coordinates|Coordinates & Obscurity]]). No cold breach through a shut throat; comms still pass.
-- **Port-open** — can trade; pirates can hit cargo/convoys but **cannot breach the vault**. Trading risks goods, never the whole civilization.
-- **Gate-open** — can launch raids and is **fully breachable**.
-- Each step out buys reach for risk. Thresholds/naming tentative.
-
-## Presence (PRES-1)
-
-- A Gate is **open only while the owner is online and choosing it**; logging off **seals** it (the Gate fails closed — a Builder conceit, like the [[combat|dome]]). Sealing is a **spin-down**, not a switch.
-- Presence stops a _cold_ breach, but no longer grants immunity: a **found** home can be raided, rarely, even offline (see [[coordinates|Coordinates & Obscurity]]). The babysitting tax died from **obscurity**, not a wall.
-- **Offline tends _toward_ safety, not away from it** — sealing sheds no new shares and re-key voids those already taken, so logging off lowers your odds of being found, it doesn't raise them (see [[coordinates|the odds]]).
+- **A Gate has no open/closed toggle.** There is no sealed state and no fail-closed: at rest a claimed Gate is a **dormant, un-propped ring**, and anyone holding your [[coordinates|coordinate]] can dial it open — the **caller** props the throat and pays the core (see [[gate-physics|Gate Physics]]). A planet whose coordinate nobody has assembled simply **can't be dialed** — it's hidden, not walled.
+- **Protection is being hard to find — nothing else.** Safety is the **low odds of someone assembling your coordinate**, plus the **bounded loss** of a raid (a minted bounty, never your existence — see [[coordinates|Coordinates & Obscurity]], [[raiding|Raiding]]). Being online or offline does not open or shut the Gate.
+- **Offline tends _toward_ safety.** While you're away you field no avatars, so you **shed no new shares**, and the trail you already shed **goes cold as shares age out** ([[coordinates|share decay]]); a quiet week away lowers your odds, it doesn't raise them. But a **found** home is dialable whether you're online or off.
+- **Trade doesn't expose the vault.** Trading is **moving cargo out** (to a partner or a [[hub-worlds|hub]]) — it risks the **cargo**, never the home itself; only a coordinate-holder can breach the vault.
 
 ## Reaching the frontier — dial out (FRONTIER-1)
 
@@ -61,7 +55,7 @@ The central object: every planet-base sits on a Gate, and all reach flows throug
 
 - The network is unstable (the [[the-wake|Wake]]). An **active** Gate channels energy through that frayed fabric and the strain occasionally **arcs open a lane by itself** — an un-propped throat (a **Rift** in the physics sense, [[gate-physics|Gate Physics]]) onto a random frontier world. You didn't dial it; you didn't pay a core.
 - **Outbound only — not a backdoor.** It opens a lane _out_; it never drops anyone onto your soil (homes stay off the random pool). You can always **manually close** it; left open, the un-propped throat collapses on its own countdown.
-- **Only an active Gate misdials.** A sealed/offline Gate channels nothing, so it can't — "never while logged off" follows from the physics, not a bolted-on rule.
+- **Only an active Gate misdials.** An idle Gate channels nothing, so it can't — "never while you're away" follows from the physics (no energy through the ring, no strain), not a bolted-on rule.
 - It's the in-world face of rising instability: **more Gate activity → more misdials → harsher pulls** — the difficulty ramp and the visible symptom of the central mystery.
 
 ## Why / rejected
@@ -70,6 +64,7 @@ The central object: every planet-base sits on a Gate, and all reach flows throug
 - **Rejected — "Builders made rings in many fixed sizes; tier up by claiming a bigger ring":** makes the aperture hardware-fixed, conflicting with the driven aperture and with the dome flexing as the throat widens.
 - **Why Rifts fold into the Gate (FRONTIER-1):** a Rift was always "the same phenomenon uncontrolled" ([[gate-physics|Gate Physics]]) — so there is no second cosmology. Travel out, the push-your-luck timer, the contact surface, and the new-Gate pipeline are all the **Gate dialing the frontier**; the contest reuses the planet runtime-states instead of a bespoke instance type. One fewer system to balance, and the away-reserve replaces the old collapse clock.
 - **Rejected — a standalone Rift extraction system** (Sealed/Open instances, Host/Scavenger, corpse-share drops as its own layer): hand-balanced and duplicative. The contested frontier world delivers the same extraction loop on instancing we already have; the underdog-crashes-a-bigger-op fantasy stays **emergent** (a weak player can still walk into a contested world). Note: this reverses the earlier "Rifts as the PvPvE extraction layer" call ([[open-questions|Open Questions]]).
+- **Rejected — a presence-gated, fail-closed seal** (logging off seals the Gate; "no cold breach" while sealed): it contradicted offline raiding (a found home must be dialable, but a sealed throat admits no breach), forced an awkward "sealed-but-traversable" physics conceit ([[gate-physics|Gate Physics]]), and wasn't carrying the protection anyway — **being hard to find** was. There is no Gate state to toggle; home safety is obscurity plus bounded loss, full stop (GATE-2).
 
 ## Data
 
@@ -81,4 +76,4 @@ Placeholder until the Unity project exists.
 
 ## Open questions
 
-- Dialing UX; spin-down / grace-window timings; the control-device component (the stealable "DHD-equivalent", name open). Tracked in open-questions.md.
+- Dialing UX; the control-device component (the stealable "DHD-equivalent", name open); what defends a **found** home when the owner is offline (automated defences / AI — cf. [[holdings|Holdings]]). Tracked in open-questions.md.

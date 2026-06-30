@@ -19,15 +19,15 @@ Map of Gaters mechanics. Locked + load-bearing systems have pages; still-open on
 
 The cycle the thesis produces, at three scales. This is the map for the parts below — **documented here only; other pages link here, they don't restate it.**
 
-- **Moment-to-moment** — sealed solo PvE: explore, gather, build. To act you open the [[Gates|Gate]] (port- or gate-open) and accept risk → push a directional [[raiding|raid]] tunnel under a [[mask-energy|mask energy]] leash, or [[combat|defend]] under a siege timer you opted into.
-- **Session** — log in (stuff intact, no decay) → stay sealed and build, port to trade, or open to raid / visit a [[hub-worlds|hub world]] → resolve finite engagements → reseal and log off. No maintenance obligation.
+- **Moment-to-moment** — quiet solo PvE: explore, gather, build, unfound. To act you **dial out** and accept risk → push a directional [[raiding|raid]] tunnel under a [[mask-energy|mask energy]] leash, or [[combat|defend]] within the attacker's siege clock when a found home is hit.
+- **Session** — log in (stuff intact, no decay) → stay home and build, dial out to trade, or open to raid / visit a [[hub-worlds|hub world]] → resolve finite engagements → log off. No maintenance obligation.
 - **Long-term** — grow the base, raise charter clearance, climb [[progression|Region/World tiers]] and [[potential|power]] as more of the network wakes → fleet-scale play and the mystery payoff. No base to babysit.
 
 > Emergent multiplayer behavior (will players open up, will deterrence hold) is **assume-and-commit** — validated at playtest scale, not by greybox.
 
 ## The Gate & survival spine
 
-- [[Gates]] — the central object: dialing, one-way directional, exposure states (sealed / port-open / gate-open), presence.
+- [[Gates]] — the central object: dialing, one-way directional, reachability (found, not sealed), the bilateral tunnel.
 - [[gate-physics|Gate Physics]] — how gating works, bound to real physics. The one area we go deep.
 - [[mask-energy|Mask Energy]] — the survival + combat resource; the sustaining field (soft border); the field-radius / away-reserve split.
 
@@ -40,7 +40,7 @@ The cycle the thesis produces, at three scales. This is the map for the parts be
 ## Identity, finding & ownership
 
 - [[consciousness-link|Consciousness Link]] — presence, respawn, recall, two-layer XP (avatar origin open — see [[avatar-origin-options|Avatar Origin]]).
-- [[coordinates|Coordinates & Obscurity]] — the mortal home, avatar-shares, re-keying.
+- [[coordinates|Coordinates & Obscurity]] — the mortal home, avatar-shares, share decay.
 - [[potential|Potential]] — the strength metric; the tribe as ownership primitive.
 - [[holdings|Holdings]] — bounded offline raiding by flow-siphon.
 

@@ -19,12 +19,12 @@ The headline fantasy: open a tunnel to a target, breach, take loot, withdraw —
 
 - **Directional bilateral tunnels (TUNNEL-1).** Opening a Gate is not shields-down to the galaxy — it's a **two-way tunnel to one planet**. The target can counter-attack through it, but **third parties cannot pile in** unless they open their own Gates. Each raid is a **duel/feud**, not a free-for-all (anti-zerg).
 - **Finding is the gate.** You raid a home only by assembling its [[coordinates|coordinate]] — never via a hub shortcut into an unfound home.
-- **The raid clock = the attacker's [[mask-energy|away reserve]]** (SIEGE-1). Initiating a raid **locks the Gate open** until the clock runs out (so the defender can't slam the door — the offline-dodge fix). The clock is **fixed by the attacker's home-Gate power** at dial time, **un-pumpable**, and capped by the **~38-min** wormhole ceiling ([[gate-physics|physics]]). Raid length is a curve of your own base size.
+- **The raid clock = the attacker's [[mask-energy|away reserve]]** (SIEGE-1). Initiating a raid **props the tunnel open** for the length of the clock — the attacker's away reserve bounds the siege. The clock is **fixed by the attacker's home-Gate power** at dial time, **un-pumpable**, and capped by the **~38-min** wormhole ceiling ([[gate-physics|physics]]). Raid length is a curve of your own base size.
 - **The breach is a fight, not a wall.** An active Gate projects a [[combat|dome]] that can't be walled in; past it you're in the defender's prepared fire-lanes.
 
 ## Two modes (kept separate)
 
-- **Home raid** — direct Gate, bilateral feud; contained, opt-in, governed by presence + the clock. Can take build, stock, and the civilization itself once found — but **never the player's existence** (see [[consciousness-link|Consciousness Link]], [[coordinates|Coordinates & Obscurity]]).
+- **Home raid** — direct Gate, bilateral feud; gated by **finding** (assembling the coordinate) and bounded by the clock. Can take build, stock, and the civilization itself once found — but **never the player's existence** (see [[consciousness-link|Consciousness Link]], [[coordinates|Coordinates & Obscurity]]).
 - **Hub / frontier contest** — many-vs-many lives at [[hub-worlds|hubs]] (capture) and on contested [[world-types|frontier worlds]] (extraction), which you choose to walk into. Guardrail: a hub may lower _travel cost_ to a doorstep, never the _target's defenses_.
 
 ## Raid value floor (anti-husk, LOOT-1)

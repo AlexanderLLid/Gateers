@@ -45,7 +45,7 @@ in CLAUDE.md). Inline tags say how settled a claim is:
 
 ### Gate & survival spine
 
-- [[Gates]] — the central object; dialing, exposure states (sealed/port/gate-open), presence.
+- [[Gates]] — the central object; dialing, reachability (found, not sealed), the bilateral tunnel.
 - [[gate-physics|Gate Physics]] — gating bound to real physics (the deep page).
 - [[mask-energy|Mask Energy]] — survival + combat resource; sustaining field; the field-radius / away-reserve split.
 
@@ -58,7 +58,7 @@ in CLAUDE.md). Inline tags say how settled a claim is:
 ### Identity, finding & ownership
 
 - [[consciousness-link|Presence & Respawn]] — presence, respawn, recall, two-layer XP (avatar origin open — see [[avatar-origin-options|Avatar Origin]]).
-- [[coordinates|Coordinates & Obscurity]] — the mortal home; avatar-shares; re-keying.
+- [[coordinates|Coordinates & Obscurity]] — the mortal home; avatar-shares; share decay.
 - [[potential|Potential]] — the strength metric; the tribe as ownership primitive.
 - [[holdings|Holdings]] — bounded offline raiding by flow-siphon.
 

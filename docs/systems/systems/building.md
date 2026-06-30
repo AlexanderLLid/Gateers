@@ -11,9 +11,9 @@ updated: 2026-06-28
 
 _Stub — the anti-decay rule is decided (BUILD-1); build depth is open (BUILD-2)._
 
-- Building on your sealed planet-base is a loved pillar (ARK / Valheim). **No persistent base decay / upkeep** [decided] — the central thing being designed out.
+- Building on your planet-base is a loved pillar (ARK / Valheim). **No persistent base decay / upkeep** [decided] — the central thing being designed out.
 - Defence is the **perimeter at range**, never doorstep cheese — the [[combat|dome]] forbids walling the aperture.
-- Safe on sealed soil; offline loss only if the home is **[[coordinates|found]]** (rare), never from neglect.
+- Safe **while unfound**; offline loss only if the home is **[[coordinates|found]]** (rare), never from neglect.
 
 ## Open questions
 

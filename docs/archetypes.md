@@ -9,22 +9,22 @@ Mechanic IDs in parentheses point to the concept page that owns the mechanic; **
 ## Served — the loved pillars; each needs a satisfying standalone loop
 
 - **Raider** [decided — core fantasy]: open an uphill tunnel → breach the protected **dome** → take loot / the coordinate DB / the control device → withdraw. The headline.
-  - **Find targets** — active gates radiate a traceable signature (running = detectable, sealed = dark), plus stolen coordinate DBs, blind-dial, bought intel. ([[coordinates|COORD-1/2]], [[the-wake|WAKE-1]])
+  - **Find targets** — active gates radiate a traceable signature (running = detectable, idle = dark), plus stolen coordinate DBs, blind-dial, bought intel. ([[coordinates|COORD-1/2]], [[the-wake|WAKE-1]])
   - Targets that hold **real value** — not husks worth less than the away-reserve window. ([[raiding|LOOT-1]])
   - A breach that's a **fight, not a wall** (dome + aperture combat) inside the clock. ([[gates|GATE-1]], [[raiding|SIEGE-1]], [[combat|COMBAT-1/2]])
   - An **extraction path** home, and **anonymity** (raid without leaking your own coordinate). ([[raiding|TUNNEL-1]], [[gate-uses|USE-1]])
-- **Builder** [tentative]: build freely on sealed soil; no decay; defence is the perimeter at range, never doorstep cheese.
-  - **Safe sealed soil** — no decay; offline loss only if the home is **found** (rare), never from neglect. ([[building|BUILD-1]], [[gates|STATE-1]])
+- **Builder** [tentative]: build freely on your own soil; no decay; defence is the perimeter at range, never doorstep cheese.
+  - **Safe while unfound** — no decay; offline loss only if the home is **found** (rare), never from neglect. ([[building|BUILD-1]], [[coordinates|Coordinates & Obscurity]])
   - **Build depth** worth the hours (structures, defences, production). (⚠ [[building|BUILD-2]] open)
   - A reason _and_ a way to build **exposed** too (forward bases) that pays for the risk. ([[holdings|HOLD-1]])
 - **Explorer / scout** [tentative]: dial or probe unknown coordinates, map the network, blind-dial as a slot machine; early scouting becomes a late-game hit list.
   - **Unknown space** to probe/blind-dial, and **signatures to trace**. ([[coordinates|COORD-2]], [[the-wake|WAKE-1]])
   - **Coordinates as a valuable output** — tradeable, stealable intel (their "loot"). ([[coordinates|COORD-1]])
   - **Compounding discovery** — early scouting becomes a hit-list others pay for. ([[coordinates|COORD-1]])
-- **Trader / economist** [tentative]: port-open trade, hub routing, tolls, tithe; risks cargo, never the vault.
+- **Trader / economist** [tentative]: trade by moving cargo out, hub routing, tolls, tithe; risks cargo, never the vault.
   - **Resource asymmetry** between worlds — a reason goods move. ([[world-types|REGION-1]])
   - **Routes and a market** — hub routing, direct dial, access lists. ([[hub-worlds|HUB-1]], [[economy|TRADE-1/ECON-2]])
-  - **Risk on cargo, never the vault** (port-open). ([[gates|STATE-1]])
+  - **Risk on cargo, never the vault** (trade is cargo out, not an open vault). ([[gates|GATE-2]], [[economy|TRADE-1]])
   - **Sinks** (tolls, tithe) that keep it flowing. ([[economy|ECON-3]])
 - **Conqueror / warlord** [tentative]: the ARK "take a whole base" fantasy — take **and hold**, not just loot-and-leave.
   - **Exposed bases/territory worth capturing** with real value, not husks. ([[holdings|HOLD-1]], [[raiding|LOOT-1]])
@@ -47,9 +47,9 @@ Mechanic IDs in parentheses point to the concept page that owns the mechanic; **
 
 - **Offline raider** [decided — reframed]: a sleeping player's **existence** stays denied (the body is on Earth). Their **home** is no longer immune — a **found** coordinate can be raided offline — but this is **rare** (you must find them; offline raids skew to the recently-active), not the ARK certainty. Their exposed [[holdings|holdings]] stay always-contestable without any search.
 - **Megabase newbie-farmer** [decided — denied]: blocked by **obscurity + uphill [[potential|frontier-visibility]]** — a whale can't see a small player's frontier pushes to harvest their shares.
-- **Turtle / babysitter** [decided — denied as a _dominant_ style]: sealing buys **obscurity, not immunity** (the home is mortal — [[coordinates|Coordinates & Obscurity]]) and stays stagnant; the aperture cannot be cheese-fortified.
+- **Turtle / babysitter** [decided — denied as a _dominant_ style]: staying hidden buys **obscurity, not immunity** (the home is mortal — [[coordinates|Coordinates & Obscurity]]) and stays stagnant; the aperture cannot be cheese-fortified.
 
 ## Resolved forks — were undecided; now served at a defined scope
 
 - **Tamer / breeder** [tentative — narrow yes]: include [[taming|taming]] (Rift-sourced companions); decline deep ARK breeding/genetics (a babysitting chore by construction).
-- **Peaceful homesteader** [tentative — served]: Valheim's largest audience never opens — build, explore, run solo PvE on the [[world-types|frontier]] forever, progressing to a **soft ceiling** ([[progression|PROG-2]]), never punished for staying sealed. Safe because a never-leaver stays **unfound**, not by an inviolable wall.
+- **Peaceful homesteader** [tentative — served]: Valheim's largest audience never opens — build, explore, run solo PvE on the [[world-types|frontier]] forever, progressing to a **soft ceiling** ([[progression|PROG-2]]), never punished for staying home. Safe because a never-leaver stays **unfound**, not by an inviolable wall.

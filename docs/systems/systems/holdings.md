@@ -18,7 +18,7 @@ Assets staked _outside_ your home sustaining field — the one place the design 
 ## What a holding is
 
 - A new object class: a forward node, claimed resource tap, or off-site cache. **Space-gate holdings** and **captured hubs** are the top-tier cases.
-- It has **no woken-sealed Gate of its own**, so there's **nothing to seal** — the same reason space gates can't be turtled. (The home itself is mortal-but-must-be-found; a holding is the **always-on, no-search** target — see [[coordinates|Coordinates & Obscurity]].)
+- It has **no claimable home Gate of its own** to hide behind — the same reason space gates can't be turtled. (The home itself is mortal-but-must-be-found; a holding is the **always-on, no-search** target — see [[coordinates|Coordinates & Obscurity]].)
 
 ## The mechanic — flow-tap, no window
 

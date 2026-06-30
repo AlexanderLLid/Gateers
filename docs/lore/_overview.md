@@ -21,7 +21,7 @@ Entry point to the Gaters lore. Short by design — link out.
 ## Design thesis — "reach equals exposure"
 
 - You act on the world only as far as you've **opened** to it; you choose when and toward whom.
-- Your home's safety is **obscurity — being unfound — not an inviolable wall**. A **sealed** planet-base is safe _while hidden_ but **mortal**: venture enough and you are eventually found and raidable (see [[coordinates|Coordinates & Obscurity]]).
+- Your home's safety is **obscurity — being unfound — not an inviolable wall**. A planet-base is safe _while hidden_ but **mortal**: venture enough and you are eventually found and raidable, online or off (see [[coordinates|Coordinates & Obscurity]]).
 - "MAD in space" — mutual vulnerability breeds deterrence, alliances, and "cover my Gate while I trade" pacts.
 - This is the spine of the whole design; the survival/PvP model is [[mask-energy|Mask Energy]] + [[coordinates|obscurity]]. **Why:** it delivers the aggressor fantasy (raiding, looting) without the defender tax (babysitting, decay, offline loss) — the genre's persistent-shared-world-plus-offline-vulnerability is the thing it rejects. [decided]
 
@@ -38,7 +38,7 @@ Entry point to the Gaters lore. Short by design — link out.
 
 ## The Gates & the Builders
 
-- Gates **woke sealed** and **cannot be manufactured** — only found, claimed, repaired. Their finiteness is the root of all conflict.
+- Gates **woke dormant** and **cannot be manufactured** — only found, claimed, repaired. Their finiteness is the root of all conflict.
 - Who built them, and why, is **unknown to everyone by design** — see [[the-builders|The Builders]], the long-game mystery engine. Do not invent Builder lore.
 - How gating works (bound to real physics) is in [[gate-physics|Gate Physics]]; the object itself is [[Gates]]. [decided]
 
