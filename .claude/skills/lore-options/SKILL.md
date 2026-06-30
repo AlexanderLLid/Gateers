@@ -22,9 +22,9 @@ The levers already live in the tech model — `docs/technical-challenges.md` (St
 
 A grounded path can still be a _bad_ path if it breaks the game's balance thesis: the **aggressor fantasy without the defender tax** (no base-babysitting, no decay, no offline raiding, no forced presence — the ARK/Rust pain Gaters reacts to). For every path, test it against the known **design traps** ([[pillars|Pillars]]):
 
-- **Turtle equilibrium** — sealed = safe forever with no downside, so nobody opens.
+- **Turtle equilibrium** — staying hidden = safe forever with no downside, so nobody opens.
 - **Trade-suicide** — any economic act risks the whole base, so nobody trades.
-- **Offline-dodge** — you can dodge a raid by logging off (or can't ever close).
+- **Offline grief** — a found home cracked repeatedly while you sleep (there is no seal to hide behind; recovery is the decaying share-trail + relocation).
 - **Zerg pile-on** — opening exposes you to everyone, so bodies win.
 
 Plus the healthy/toxic line: players should be _excited_ to log in, **never** _obligated_ on pain of loss — anything that punishes an absent player has reinvented decay. And the guardrail: a path may cut the _cost to reach_ a target, never the _target's defenses_. A path that reopens a trap isn't disqualified — but say so, and say which knob keeps it closed.

@@ -13,10 +13,10 @@ This is science fiction. The world rests on impossible **premises** — stable a
 Attack the **consequence**. Once a premise is granted, everything downstream must follow from it with iron logic. A hole is where it doesn't:
 
 - **Broken** — the world states or implies X, but X cannot follow from the premises as written. The strongest finding.
-- **Unreckoned** — a premise has an obvious implication the world never addresses. _If Coordinates can be stolen, what stops a leaked address from making a planet permanently raidable — is there re-keying?_ These are the most valuable holes; chase them hardest.
+- **Unreckoned** — a premise has an obvious implication the world never addresses. _If Coordinates can be stolen, what stops a leaked address from making a planet permanently raidable — does the share-trail decay, can you relocate?_ These are the most valuable holes; chase them hardest.
 - **Premise vs premise** — two granted premises contradict each other.
 - **Hand-wave** — plausible but unexplained; one line of lore would close it. Lowest severity.
-- **Balance regression** — the claim reinstates the **defender tax** or reopens a **design trap** the world exists to remove (defined in [[pillars|Pillars]]; thesis in [[World Overview]]). Top severity — it is the one thing the whole world is built to avoid. The tell: an absent player who loses something, or a sealed home that can be punched open.
+- **Balance regression** — the claim reinstates the **defender tax** or reopens a **design trap** the world exists to remove (defined in [[pillars|Pillars]]; thesis in [[World Overview]]). Top severity — it is the one thing the whole world is built to avoid. The tell: an absent player who loses something, or a found home with no recovery path.
 - **Knob bloat / order violation** — the claim adds a balancing variable an upstream knob could carry, or designs a lower layer against an undefined upper one (see CLAUDE.md, Design order). Distinct from Balance regression, which is about the defender tax.
 
 ## Process
