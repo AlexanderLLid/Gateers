@@ -1,6 +1,6 @@
 # CLAUDE.md - Gaters
 
-THIS IS A WORK IN PROGRESS FEEL FREE TO SUGGEST CHANGES TO ANYTHING ANYTIME. Nothing is set in stone.
+THIS IS A WORK IN PROGRESS — suggest changes to anything, anytime. **Nothing is locked**: green-field (no users, no shipped versions), so when something changes, change it in place as if it had always been that way — no backward-compatibility, migration notes, deprecation shims, or "supersedes the old X" history.
 Never branch, never open PRs — work off `main`, and don't commit or push unless asked (the human reviews local commits first).
 
 This is the **parent repo** for the game Gaters. Right now it holds **design docs
@@ -64,6 +64,18 @@ Rules:
   knob lower down must say why an existing upstream knob cannot carry it, and stay
   decoupled. Never merge two knobs that fail independently — like a shooter keeping
   weapon damage and fire-rate as separate dials, not one "DPS" number.
+- **Occam / additions must earn it.** Default answer to "add a new mechanic,
+  system, or page?" is **no** — each one multiplies what must be balanced,
+  linked, kept contradiction-free, and later coded. First walk _up_ the layer
+  tree, all the way to the fiction: can a higher knob be retuned — or a story
+  premise carry it — instead of bolting on a new mechanic? A diegetic answer the
+  world explains beats a hard game-block players resent. Only if nothing upstream
+  can carry it does an addition earn consideration, and then it must name the
+  existing mechanic that _cannot_ do the job (knob inheritance, generalized).
+  Prefer retuning over minting. When in doubt, stub and defer.
+  - _E.g._ Subnautica keeps you from swimming off the map with no invisible wall:
+    crushing depth and leviathans make the edge self-policing. The fiction does
+    the work a hard boundary would otherwise need.
 - **Balance is orthogonal, not a final layer.** When you define a layer, set its
   structural ratios (the shape: how steep a curve is, which value dominates) but
   defer calibrated values (exact rates, costs) to playtest. Never freeze balance
@@ -86,8 +98,7 @@ design traps in `docs/pillars.md`).
 ADRs, the thesis, this schema — is provisional and open to change at this stage. A recorded
 decision documents the current call and its _why_, not a lock. If a proposal conflicts with
 one, **surface the conflict and the better reasoning and re-decide** — don't silently ignore
-it, but don't treat it as immovable either. When the call changes, edit the page in place
-(see Nothing is locked).
+it, but don't treat it as immovable either. When the call changes, edit the page in place.
 
 ## Layers
 
@@ -149,13 +160,6 @@ A decision being **actively worked** lives in one holding doc (a `*-options.md` 
 root) plus an `open-questions.md` entry. On resolution it folds into its concept page (or an
 ADR for technical) and the holding doc is deleted. Don't promote a half-formed idea to a
 standalone concept page.
-
-## Nothing is locked
-
-Green-field project: no users, no shipped versions, nothing locked in. Do not add
-backward-compatibility, migration notes, deprecation shims, or "supersedes the old
-X" history — when something changes, change it in place as if it had always been
-that way.
 
 ## Index
 
