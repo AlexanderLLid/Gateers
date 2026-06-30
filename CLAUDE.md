@@ -109,6 +109,10 @@ Page types, frontmatter, and how to start a new page live in `docs/_templates/RE
   (`docs/lore/organizations/`, ...); folders appear as pages are added.
 - One subject per page. Cross-link with `[[Wikilinks]]`. Link multi-word pages as
   `[[basename|Display]]` so the link resolves.
+- **Each page owns one subject; link, don't re-explain.** When a page needs a mechanic
+  another page owns, name what's needed and link out (with the owning mechanic ID) — never
+  restate _how_ it works. Two descriptions of one mechanic drift into two sources of truth.
+  Cross-cutting pages (`archetypes.md`, `pillars.md`) **reference** systems, they don't document them.
 - Anchor claims to sources: cite inline as `(src: raw/file.md)`. Prefer anchoring
   over memory; it stops canon and mechanics from drifting over many edits.
 - Numbers live in data, not prose: document the model and say where tunable values
